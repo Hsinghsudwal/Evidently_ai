@@ -1,0 +1,43 @@
+{
+  "id": "83c48e02-226b-45ce-935b-86fed7c8031c",
+  "name": "Online monitoring as a service",
+  "description": null,
+  "dashboard": {
+    "name": "Online monitoring as a service",
+    "panels": [
+      {
+        "type": "evidently.ui.dashboards.test_suites.DashboardPanelTestSuite",
+        "id": "040e0f14-5190-43c3-8258-4ee3eaecd603",
+        "title": "Data Drift Tests",
+        "filter": {
+          "metadata_values": {},
+          "tag_values": [],
+          "include_test_suites": true
+        },
+        "size": 1,
+        "test_filters": [],
+        "panel_type": "aggregate",
+        "time_agg": null
+      },
+      {
+        "type": "evidently.ui.dashboards.test_suites.DashboardPanelTestSuite",
+        "id": "d0c72535-ebc6-4b84-b16f-7ace3eb76bc7",
+        "title": "Data Drift Tests",
+        "filter": {
+          "metadata_values": {},
+          "tag_values": [],
+          "include_test_suites": true
+        },
+        "size": 1,
+        "test_filters": [],
+        "panel_type": "detailed",
+        "time_agg": null
+      }
+    ],
+    "tabs": [],
+    "tab_id_to_panel_ids": {}
+  },
+  "team_id": null,
+  "date_from": null,
+  "date_to": null
+}
